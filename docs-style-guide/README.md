@@ -15,7 +15,7 @@ It'll be fun, for given values of fun. Depends on how much you like nerd stuff.
 You don't need to be some sort of programming expert (though it helps) or god-level sysadmin (ditto) to help out with this project, but you will need a few things:
 
 * A working knowledge of Git, and Github.
-* A working knowledge of Markdown formatting. Here's [a handy guide](https://guides.github.com/features/mastering-markdown/).
+* A working knowledge of [Markdown](https://guides.github.com/features/mastering-markdown/) formatting.
 * A good screenshot tool at the ready, and possibly a simple graphics editing program.
 * A willingness to work with editors. Every submission to the docs will be given a once-over (at least) to make sure it's:
     * Technically correct and working as intended.
@@ -34,17 +34,19 @@ These principles should apply to all documentation written for Rocky Linux:
 * **Assume a *basic* level of technical competency on the part of the reader.**  
 There *will* be documentation aimed at beginners who've never used Rocky Linux, or RHEL, or built their own servers, but this is an OS for people who have some idea what they want to do with it.
 *  **Include lots of examples, and explain exactly what you mean.**  
-... But don't make too many assumptions. Lots of Linux and server-building newbies will be reading what you write, so be as clear as you can. Explain every step, and every argument or variable you put into the command line.
-* **A screenshot is worth a thousand bits of jargon.**  
+Don't make too many assumptions. Lots of Linux and server-building newbies will be reading what you write, so be as clear as you can. Explain every step, and every argument or variable you put into the command line.
+* **A screenshot is worth a thousand bits of jargon.**
 Put the "show" in "show and tell". 'Nuff said.
 * **List the requirements at the top.**  
 On every tutorial, guide, or doc, list the things the reader will need to know or have installed first. There's no worse feeling than getting into the middle of a tutorial, then reading, "Okay, now SSH into your server..." when you haven't had any experience with SSH yet.
 * **Use the metaphor, Luke. And also watch out for the metaphors...**  
 And the anaologies, similes, idioms, and more obscure cultural references. While *we generally encourage* the use of all these literary devices to spice up documentation (especially the beginner-focused docs), do your best to keep them simple. Non-native English speakers still need to understand our documentation, especially those who will be translating it.
 * **The Oxford comma**  
-Also known as the serial comma. Love it, use it, and [read up on it](https://en.wikipedia.org/wiki/Serial_comma) if you want to.
+Also known as the [serial comma](https://en.wikipedia.org/wiki/Serial_comma). Love it, use it.
 * **Things to italicize**  
 The first time you mention a software package in any article, italicize it, eg _rsnapshot_. Specific files and folders (eg _/home/[user]_) should _always_ be italicized. You can, of course, use italics and bold text for emphasis where needed, but do it sparingly. If everything is makred as bold text, then the boldness of the text loses its impact altogether.
+* **Link the nouns.**
+[Hyperlinks](https://en.wikipedia.org/wiki/Hyperlink) give your reader a definition of a term or additional resources right within the flow of the document. Never link the word _here_ or [_click here_](https://www.w3.org/QA/Tips/noClickHere), unless linking to defining resources. Everyone knows how a hyperlink works. Link the _thing_ that is being defined or has supporting material.
 
 ## Images & screenshots
 A few tips to help you make the best images you can for tutorials.
